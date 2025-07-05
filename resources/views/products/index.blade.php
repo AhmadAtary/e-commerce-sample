@@ -11,7 +11,7 @@
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-bottom: 3rem;">
             @foreach($products as $product)
             <div style="background-color: #4a5568; border-radius: 10px; padding: 1.5rem; text-align: center; transition: transform 0.3s ease, box-shadow 0.3s ease;" class="product-card">
-                <img src="{{ $product->image_url }}" alt="{{ $product->name }}" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;">
+                <img src="{{ asset($product->image_path) }}" alt="{{ $product->name }}" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;">
                 <h3 style="color: #fff; margin-bottom: 0.5rem; font-size: 1.3rem;">{{ $product->name }}</h3>
                 <p style="color: #a0aec0; margin-bottom: 1rem; font-size: 0.9rem; line-height: 1.4;">{{ Str::limit($product->description, 120) }}</p>
                 <div style="color: #d3b979; font-size: 1.4rem; font-weight: bold; margin-bottom: 1rem;">${{ number_format($product->price, 2) }}</div>
@@ -103,4 +103,5 @@
 }
 </style>
 @endsection
+
 

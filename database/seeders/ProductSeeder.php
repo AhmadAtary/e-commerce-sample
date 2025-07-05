@@ -19,6 +19,7 @@ class ProductSeeder extends Seeder
                 'price' => 299.99,
                 'stock' => 50,
                 'is_active' => true,
+                'image_path' => 'images/product1.png',
             ],
             [
                 'name' => 'Smart Fitness Watch',
@@ -26,6 +27,7 @@ class ProductSeeder extends Seeder
                 'price' => 199.99,
                 'stock' => 30,
                 'is_active' => true,
+                'image_path' => 'images/product2.png',
             ],
             [
                 'name' => 'Portable Bluetooth Speaker',
@@ -33,6 +35,7 @@ class ProductSeeder extends Seeder
                 'price' => 89.99,
                 'stock' => 75,
                 'is_active' => true,
+                'image_path' => 'images/product3.png',
             ],
             [
                 'name' => 'Wireless Charging Pad',
@@ -40,6 +43,7 @@ class ProductSeeder extends Seeder
                 'price' => 49.99,
                 'stock' => 100,
                 'is_active' => true,
+                'image_path' => 'images/product4.png',
             ],
             [
                 'name' => 'USB-C Hub',
@@ -47,6 +51,7 @@ class ProductSeeder extends Seeder
                 'price' => 79.99,
                 'stock' => 60,
                 'is_active' => true,
+                'image_path' => 'images/product5.png',
             ],
             [
                 'name' => 'Ergonomic Wireless Mouse',
@@ -54,6 +59,7 @@ class ProductSeeder extends Seeder
                 'price' => 39.99,
                 'stock' => 80,
                 'is_active' => true,
+                'image_path' => 'images/product6.png',
             ],
             [
                 'name' => 'Mechanical Keyboard',
@@ -61,6 +67,7 @@ class ProductSeeder extends Seeder
                 'price' => 149.99,
                 'stock' => 25,
                 'is_active' => true,
+                'image_path' => 'images/product7.png',
             ],
             [
                 'name' => 'Smartphone Camera Lens Kit',
@@ -68,6 +75,7 @@ class ProductSeeder extends Seeder
                 'price' => 69.99,
                 'stock' => 40,
                 'is_active' => true,
+                'image_path' => 'images/product8.png',
             ],
             [
                 'name' => 'Portable Power Bank',
@@ -75,6 +83,7 @@ class ProductSeeder extends Seeder
                 'price' => 59.99,
                 'stock' => 90,
                 'is_active' => true,
+                'image_path' => 'images/product9.png',
             ],
             [
                 'name' => 'Smart Home Security Camera',
@@ -82,6 +91,7 @@ class ProductSeeder extends Seeder
                 'price' => 129.99,
                 'stock' => 35,
                 'is_active' => true,
+                'image_path' => 'images/product10.png',
             ],
         ];
 
@@ -90,4 +100,5 @@ class ProductSeeder extends Seeder
         }
     }
 }
+
 

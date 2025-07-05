@@ -13,9 +13,9 @@ class Product extends Model
         'name',
         'description',
         'price',
-        'image',
         'stock',
         'is_active',
+        'image_path',
     ];
 
     protected $casts = [
@@ -44,7 +44,8 @@ class Product extends Model
      */
     public function getImageUrlAttribute()
     {
-        return $this->image ? asset('storage/' . $this->image) : asset('images/no-image.png');
+        return asset($this->image_path);
     }
 }
+
 
