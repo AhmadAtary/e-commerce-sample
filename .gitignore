@@ -1,19 +1,108 @@
-/.phpunit.cache
-/node_modules
-/public/build
+# Laravel specific
+/vendor/
+/node_modules/
 /public/hot
 /public/storage
 /storage/*.key
-/vendor
+/storage/app/public/*
+!/storage/app/public/.gitkeep
+
+# Environment files
 .env
 .env.backup
 .env.production
-.phpunit.result.cache
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+/storage/logs/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# next.js build output
+.next
+
+# nuxt.js build output
+.nuxt
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless
+
+# Laravel Mix
+/public/mix-manifest.json
+
+# Laravel Nova
+/nova
+
+# Homestead
 Homestead.json
 Homestead.yaml
-auth.json
-npm-debug.log
-yarn-error.log
-/.fleet
-/.idea
-/.vscode
+
+# PHP CS Fixer
+.php_cs.cache
+
+# PHPUnit
+.phpunit.result.cache
+/coverage
+/phpunit.xml
+
+# Psalm
+psalm.xml
+
+# Local development
+*.local
+
+# Build files
+/public/build/
+/public/css/app.css
+/public/js/app.js
+
